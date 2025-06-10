@@ -1,0 +1,54 @@
+.nav-link {
+    color: #1a202c;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #d53f8c;
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #d53f8c;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #d53f8c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b83280;
+}
+
+.hobby-card, .family-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover, .family-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.hobby-image, .family-image {
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.hobby-image img, .family-image img {
+    transition: transform 0.3s ease;
+}
+
+.hobby-card:hover .hobby-image img, 
+.family-card:hover .family-image img {
+    transform: scale(1.1);
+}
